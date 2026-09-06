@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_siva9941456382_Harness_CI_CD_Zero_to_Hero_1788687375607-push-trigger-input-set
+  identifier: Build_siva9941456382_Harness_CI_CD_Zero_to_Hero_1788687375607pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HarnessCICDZerotoHero
+  pipeline:
+    identifier: Build_siva9941456382_Harness_CI_CD_Zero_to_Hero_1788687375607
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
